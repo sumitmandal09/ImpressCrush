@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ask Her Out</title> -->
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- <style>
+        .btn a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff; /* Bootstrap's primary color */
+            border-radius: 5px;
+        }
+    
+        /* Media query for mobile devices */
+        @media (max-width: 768px) {
+            .btn a {
+                font-size: 24px;  /* Increase font size */
+                padding: 15px 30px; /* Increase padding */
+            }
+        }
+    </style> -->
+
+  </head>
+  <body>
+
+    <div class="container">
+        <audio autoplay loop>
+            <source src="Assets/HumToDeewaneHue.mp3" type="audio/mp3">
+        </audio>
+        <div class="row">
+            <div class="col-8-md-xs">
+
+                <img src="Assets/baby.jpeg" alt="Eyes" id="slideimg" style="width: 50vh;">
+            </div>
+            <!-- <div class="col-4-md-xs" style="margin-left: 130px; margin-top:20px;">
+                <div class="btn">
+                    <a href="yes.html">Yes</a> -->
+                    <!-- <a href="landing.html">Aagee..</a> -->
+                  <!-- </div> -->
+            <!-- </div>  -->
+            <div class="col-4-md-xs" style="margin-left: 130px; margin-top:20px;">
+                <div class="btn">
+                    <a href="landing.html" style="display: inline-block; padding: 10px 20px; font-size: 70px; text-align: center; text-decoration: none; color: white; background-color: #7fd5ca; border-radius: 5px; width: 60%; box-sizing: border-box;">
+                        Aagee..
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    
+
+
+    <script>
+        function one(){
+            document.getElementById("slideimg").src="Assets/two.jpeg";
+        }
+        function two(){
+            document.getElementById("slideimg").src="Assets/three.jpeg";
+        }
+        function three(){
+            document.getElementById("slideimg").src="Assets/one.jpeg";
+        }
+        function four(){
+            document.getElementById("slideimg").src="Assets/four.jpeg";
+        }
+        function five(){
+            document.getElementById("slideimg").src="Assets/five.jpeg";
+        }
+        function six(){
+            document.getElementById("slideimg").src="Assets/six.jpg";
+        }
+        function zero(){
+            document.getElementById("slideimg").src="Assets/baby.jpeg";
+        }
+        setInterval(one,2000);
+        setInterval(two,4000);
+        setInterval(three,6000);
+        setInterval(four,8000);
+        setInterval(five,100000);
+        setInterval(six,12000);
+        setInterval(zero,14000);
+    </script>
+  </body>
+</html>
